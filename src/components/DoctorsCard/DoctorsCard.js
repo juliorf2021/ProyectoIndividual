@@ -10,7 +10,7 @@ const DoctorsCard = (props) => {
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="tops" src={image} />
                     <Card.Body>
-                        <Card.Title>{name}</Card.Title>
+                        <Card.Title >{name}</Card.Title>
                         <Card.Text>
                             {title}
                         </Card.Text>
@@ -21,7 +21,7 @@ const DoctorsCard = (props) => {
                         <ListGroupItem>Calificacion:{rating}</ListGroupItem>
                     </ListGroup>
                     <Card.Body>
-                        <Card.Link as={Link} to={`/booking/${id}`}>Solicitar Cita</Card.Link>
+                        <Card.Link as={Link} to={`/booking/${id}`} class="btn btn-custom-book btn btn-primary">Solicitar Cita</Card.Link>
                     </Card.Body>
                 </Card>
             </CardGroup>

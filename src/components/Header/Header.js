@@ -19,7 +19,7 @@ const Header = (props) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link as={Link} to='/'>Inicio</Nav.Link>
+                            <Nav.Link as={Link} to='/' >Inicio</Nav.Link>
                             <Nav.Link as={Link} to='/booking-form'>Agenda</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#Specialities">Especialidades Medicas</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#Doctor">Lista de especialistas</Nav.Link>
