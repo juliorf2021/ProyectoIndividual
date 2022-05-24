@@ -1,0 +1,101 @@
+[
+    {
+        "id": "1",
+        "name": "Dr. Dante Alfredo Vega Ortiz",
+        "title": "Especialista en Emergencias",
+        "image": "https://img.freepik.com/foto-gratis/doctor-examina-al-paciente-concepto-medicina-salud_1328-3146.jpg",
+        "specialities": "Neumologia",
+        "address": "Arequipa, Peru",
+        "price": "90",
+        "rating": "32.2",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "2",
+        "name": "Dra. María Denisse Alvarez Huanca",
+        "title": "Medicina orientada al deporte",
+        "image": "https://img.freepik.com/foto-gratis/retrato-mujer-asiatica-medico-brazos-cruzados-pie-uniforme-medico-estetoscopio-sonriendo-camara_1258-83844.jpg",
+        "specialities": "Cardiologia",
+        "address": "Arequipa, Peru",
+        "price": "200",
+        "rating": "32.3",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "3",
+        "name": "Dr. Gustavo Manuel Apaza Jalixto",
+        "title": "Primera Infancia",
+        "image": "https://img.freepik.com/foto-gratis/trabajadores-salud-seguro-medico-laboratorio-clinico-concepto-covid-19-hermoso-medico-serio-bata-blanca-anteojos-portapapeles-muestra-signo-bien-asegura-que-pruebas-estan-bien-resultados-son-buenos_1258-58604.jpg",
+        "specialities": "Pediatria",
+        "address": "Arequipa, Peru",
+        "price": "400",
+        "rating": "32.4",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "4",
+        "name": "Gustavo Adolfo Montero Hernandez",
+        "title": "Neonatal",
+        "image": "https://img.freepik.com/foto-gratis/sonriente-medico-masculino-clinica_23-2147767565.jpg",
+        "specialities": "Ginecologia",
+        "address": "Arequipa, Peru",
+        "price": "500",
+        "rating": "32.5",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "5",
+        "name": "Dr. Angelota",
+        "title": "BDS, MDS - Oral & Maxillofacial Surgery",
+        "image": "https://img.freepik.com/foto-gratis/doctor-brazos-cruzados-sobre-fondo-blanco_1368-5790.jpg",
+        "specialities": "Cardiologia",
+        "address": "Arequipa, Peru",
+        "price": "600",
+        "rating": "32.6",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "6",
+        "name": "Dr. Markoto",
+        "title": "BDS, MDS - Oral & Maxillofacial Surgery",
+        "image": "https://img.freepik.com/foto-gratis/doctor-brazos-cruzados-sobre-fondo-blanco_1368-5790.jpg",
+        "specialities": "Pediatria",
+        "address": "Arequipa, Peru",
+        "price": "700",
+        "rating": "32.7",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "7",
+        "name": "Dr. Holita Mark",
+        "title": "BDS, MDS - Oral & Maxillofacial Surgery",
+        "image": "https://img.freepik.com/foto-gratis/doctor-brazos-cruzados-sobre-fondo-blanco_1368-5790.jpg",
+        "specialities": "Neumologia",
+        "address": "Arequipa, Peru",
+        "price": "800",
+        "rating": "32.8",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "8",
+        "name": "Dr . Jhon Maich",
+        "title": "BDS, MDS - Oral & Maxillofacial Surgery",
+        "image": "https://img.freepik.com/foto-gratis/doctor-brazos-cruzados-sobre-fondo-blanco_1368-5790.jpg",
+        "specialities": "Neurology",
+        "address": "Arequipa, Peru",
+        "price": "900",
+        "rating": "32.9",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    },
+    {
+        "id": "9",
+        "name": "Dr. Michel Robin",
+        "title": "BDS, MDS - Oral & Maxillofacial Surgery",
+        "image": "https://img.freepik.com/foto-gratis/hermosa-joven-doctora-mirando-camara-oficina_1301-7807.jpg",
+        "specialities": "Orthopedic",
+        "address": "Arequipa, Peru",
+        "price": "800",
+        "rating": "33",
+        "about": "student at American Dental Medical University.BDS, MDS - Oral & Maxillofacial Surgery."
+    }
+]

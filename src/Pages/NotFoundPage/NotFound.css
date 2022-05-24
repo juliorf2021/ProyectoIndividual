@@ -1,0 +1,11 @@
+.bg-color{
+    background-color: #F2F2F2;
+}
+.page-not-found-bg{
+    height: 80vh;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

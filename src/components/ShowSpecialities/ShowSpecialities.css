@@ -1,0 +1,16 @@
+.box-specialities{
+    text-align: center;
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 10%);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.box-specialities:hover{
+    text-align: center;
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 0%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
