@@ -1,7 +1,7 @@
 import React from "react";
 import './Banner.css';
 import Slider from "react-slick";
-import banner from "../../images/Blue and White Circle Corporate Clean Vaccine Scheduling General Health Banner.png"
+import banner from "../../images/Blue2.png"
 import banner1 from "../../images/Blue2.png"
 const Banner = () => {
     const settings = {

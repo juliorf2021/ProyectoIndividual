@@ -25,7 +25,7 @@ const BookingForm = () => {
       telefono: telefono,
       createdAt: new Date(),
     })
-    setMessage("")
+    setMessage("Mensajes enviado")
   }
 
 
@@ -37,6 +37,8 @@ const BookingForm = () => {
 
                 </div>
                 <div className="col-md-6">
+                    <p><h3>Ingresa tus datos y reserva tu cita</h3>
+                    <span style={{color: "009ec2"}}>El Especialista se Pondra en Contacto con Usted a su numero Whatsapp</span></p>
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Nombre</Form.Label>

@@ -6,7 +6,7 @@ import Specialities from '../../components/Specialities/Specialities';
 import './Home.css'
 const Home = () => {
     return (
-        <div className='container'>
+        <div className=''>
             <Banner></Banner>
             <Specialities></Specialities>
             <DoctorList></DoctorList>
