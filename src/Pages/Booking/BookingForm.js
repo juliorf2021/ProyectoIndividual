@@ -61,6 +61,8 @@ const BookingForm = () => {
                         <Button variant="primary" onClick={sendMessage}>Registrar Cita</Button>
                     </Form>
                 </div>
+
+                
             </div>
         </div>
     );
