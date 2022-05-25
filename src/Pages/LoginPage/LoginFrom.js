@@ -24,18 +24,18 @@ const LoginFrom = () => {
     return (
         <div>
             <div>
-                <div className='login-header'><h3>Acceder </h3></div>
-                <FloatingLabel
+                <div className='login-header'><h5>Acceder </h5><p>Para poder realizar una cita <br></br><strong>Ingresar con una cuenta de Google</strong></p></div>
+                <FloatingLabel  style={{display: 'none' }}
                     controlId="floatingInput"
                     label="Correo"
                     className="mb-3"
                 >
-                    <Form.Control onBlur={getEmail} type="email" placeholder="name@example.com" />
+                    <Form.Control  style={{display: 'none' }} onBlur={getEmail} type="email" placeholder="name@example.com" />
+                </FloatingLabel >
+                <FloatingLabel  style={{display: 'none' }} controlId="floatingPassword" label="Password">
+                    <Form.Control  style={{display: 'none' }} onBlur={getpassword} type="password" placeholder="Password" />
                 </FloatingLabel>
-                <FloatingLabel controlId="floatingPassword" label="Password">
-                    <Form.Control onBlur={getpassword} type="password" placeholder="Password" />
-                </FloatingLabel>
-                <Button variant="success" onClick={loginHandeler}>Login</Button>
+                <Button variant="success"   style={{display: 'none' }} onClick={loginHandeler}>Login</Button>
 
             </div>
         </div>

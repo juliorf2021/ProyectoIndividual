@@ -20,10 +20,10 @@ const Header = (props) => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to='/' >Inicio</Nav.Link>
-                            <Nav.Link as={Link} to='/booking-form'>Agenda</Nav.Link>
+                            <Nav.Link as={Link} to='/booking-form' style={{display: 'none' }}>Agenda</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#Specialities">Especialidades Medicas</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#Doctor">Lista de especialistas</Nav.Link>
-                            <Nav.Link as={HashLink} to="/home#about" style={{display: 'none' }}>Agendados </Nav.Link>
+                            <Nav.Link as={HashLink} to="/home#about" >Nuestro Servicio </Nav.Link>
                         </Nav>
                         <Nav>
                            

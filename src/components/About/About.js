@@ -8,7 +8,7 @@ const About = () => {
                 <div className="col-md-12 text-center">
                     <h1>Nuestros servicio</h1>
                     <p>
-                        Te brindamos una amplia Gama de Profesionales <br /> que podra resolver tus consultas medicas.
+                        Te brindamos la Red de Profesionales mas Amplia<br /> que podra resolver tus consultas medicas.
                     </p>
                 </div>
             </div>
@@ -21,7 +21,7 @@ const About = () => {
                                 <Card.Title>PASO 1
                                 </Card.Title>
                                 <Card.Text>
-                                Busca a tu médico segun tu especialidad, disponemos de los mejores prospectos.
+                                Busca a tu médico segun su especialidad, disponemos de los mejores prospectos a tu disposición.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -50,7 +50,7 @@ const About = () => {
                                 <Card.Title>Paso 3
                                 </Card.Title>
                                 <Card.Text>
-                                    Establece una comunicación con tu Doctor en menos de 24 horas, Pensamos en tu Salud.
+                                    Establece una comunicación con tu Doctor en menos de 24 horas,reserva tu cita. Pensamos en tu Salud.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
