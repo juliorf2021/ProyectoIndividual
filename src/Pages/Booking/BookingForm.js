@@ -11,6 +11,8 @@ const BookingForm = () => {
     const [texto, setTexto] = useState("");
     const [correo, setCorreo] = useState("");
     const [telefono, setTelefono] = useState("");
+    const [dia, setDia] = useState("");
+    const [hora, setHora] = useState("");
 
   async function sendMessage(e) {
     e.preventDefault()
@@ -21,8 +23,9 @@ const BookingForm = () => {
       paciente: user.displayName,
       correo: correo,
       to: "whatsapp:+51938763912",
-      body: message,
+      body: "Buen dia Doctor Gustavo Montero el Paciente *"+user.displayName+"* con el numero de contacto *"+telefono+"* desea una cita con fecha "+dia+" con el siguiente mensaje "+message,
       telefono: telefono,
+      cita: dia,
       createdAt: new Date(),
     })
     setMessage("Mensajes enviado")
@@ -54,6 +57,13 @@ const BookingForm = () => {
                             <Form.Control type="email" placeholder="nombre@correo.com"  onChange={(e) => setCorreo(e.target.value)}
         value={correo}/>
                         </Form.Group>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                            <Form.Label>Fecha de Cita</Form.Label>
+                            <Form.Control type="date"   onChange={(e) => setDia(e.target.value)}
+        value={dia}/>
+                        </Form.Group>
+
+                       
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Mensaje</Form.Label>
                             <Form.Control type="text"  onChange={(e) => setMessage(e.target.value)}
