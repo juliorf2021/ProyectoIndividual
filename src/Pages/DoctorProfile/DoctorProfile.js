@@ -18,7 +18,8 @@ const DoctorProfile = (props) => {
     const { name, title, image, specialities, address, rating, price } = profile;
     const handelBooking = () => {
 
-        history.push('/booking-form')
+       // history.push('/booking-form')
+       history.push(`/booking-form/${id}`)
     }
     return (
         <div className='container'>

@@ -2,9 +2,14 @@ import React from 'react';
 import { Form, FloatingLabel, Button } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
 import useFirebase from '../../hooks/useFirebase';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
+import alldata from '../../Fakedata/data.json';
+import { useHistory, useParams } from 'react-router-dom';
 import { collection, addDoc } from "@firebase/firestore"
 const BookingForm = () => {
+
+    const [profile, setProfile] = useState([]);
+    const { name, title, image, specialities, address, rating, price } = profile;
     const { user, } = useAuth();
     const { signinUsinggoogle, signinUsinggit, error, db } = useFirebase();
     const [message, setMessage] = useState("");
@@ -13,6 +18,14 @@ const BookingForm = () => {
     const [telefono, setTelefono] = useState("");
     const [dia, setDia] = useState("");
     const [hora, setHora] = useState("");
+    const { id } = useParams();
+
+    useEffect(() => {
+        const currentprofile = alldata.find(data => data.id === id);
+        setProfile(currentprofile);
+    }, [])
+
+    console.log(name);
 
   async function sendMessage(e) {
     e.preventDefault()
@@ -23,7 +36,7 @@ const BookingForm = () => {
       paciente: user.displayName,
       correo: correo,
       to: "whatsapp:+51938763912",
-      body: "Buen dia Doctor Gustavo Montero el Paciente *"+user.displayName+"* con el numero de contacto *"+telefono+"* desea una cita con fecha "+dia+" con el siguiente mensaje "+message,
+      body: "Buen dia Dr "+name+" el Paciente *"+user.displayName+"* con el numero de contacto *"+telefono+"* desea una cita con fecha "+dia+" con el siguiente mensaje "+message,
       telefono: telefono,
       cita: dia,
       createdAt: new Date(),
@@ -41,7 +54,7 @@ const BookingForm = () => {
                 </div>
                 <div className="col-md-6">
                     <p><h3>Ingresa tus datos y reserva tu cita</h3>
-                    <span style={{color: "009ec2"}}>El Especialista se Pondra en Contacto con Usted a su numero Whatsapp</span></p>
+                    <span style={{color: "009ec2"}}>El Especialista <strong>Dr. {name}</strong>  se Pondra en Contacto con Usted a su numero <strong>Whatsapp</strong></span></p>
                     <Form>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                             <Form.Label>Nombre</Form.Label>

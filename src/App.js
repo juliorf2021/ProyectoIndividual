@@ -45,7 +45,7 @@ function App() {
             </Route>
 
             {/* Private route */}
-            <PrivateRoute exact path='/booking-form'>
+            <PrivateRoute exact path='/booking-form/:id'>
               <BookingForm></BookingForm>
             </PrivateRoute>
             <PrivateRoute exact path='/my-profile'>
