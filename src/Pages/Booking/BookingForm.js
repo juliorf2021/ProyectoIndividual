@@ -41,7 +41,7 @@ const BookingForm = () => {
       cita: dia,
       createdAt: new Date(),
     })
-    setMessage("Mensajes enviado")
+    setMessage("Mensajes enviado, pronto nos pndremos en contacto")
   }
 
 
