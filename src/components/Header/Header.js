@@ -27,9 +27,9 @@ const Header = (props) => {
                         </Nav>
                         <Nav>
                            
-                            <Nav.Link as={HashLink} to="/my-profile">{user?.displayName}</Nav.Link>
+                            <Nav.Link as={HashLink} to="/my-profile" className="btn btn-success m-4">{user?.displayName}</Nav.Link>
                             {
-                                user?.email ? <button className="btn btn-success m-4" onClick={logout}>log out</button> : <Nav.Link as={Link} to='/login' >Login/Sign Up</Nav.Link>
+                                user?.email ? <button  className="btn btn-success m-4" onClick={logout}>log out</button> : <Nav.Link as={Link} to='/login' >Login/Sign Up</Nav.Link>
                             }
                         </Nav>
                     </Navbar.Collapse>

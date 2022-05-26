@@ -6,9 +6,10 @@ const UserProfile = () => {
     console.log(user)
     return (
         <div className='container m-5 text-center'>
+            <h2>Usuario</h2>
             <img src={user?.photoURL} alt="" />
-            <h1>Name : {user.displayName}</h1>
-            <h1>Name : {user.email}</h1>
+            <h5>Nombre : {user.displayName}</h5>
+            <h5>Correo : {user.email}</h5>
         </div>
     );
 };
